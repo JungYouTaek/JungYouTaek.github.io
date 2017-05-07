@@ -37,7 +37,7 @@ export default {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(/intro-bg.png) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
