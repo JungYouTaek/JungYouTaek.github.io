@@ -14,7 +14,11 @@
         <p>Youtaek Jung, 24</p>
         <p>Incheon, South Korea</p>
         <p>Inha Univ.</p>
+        <a href="#about" class="btn btn-circle">
+          <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+        </a>
       </div>
+
     </header>
   </div>
 </template>
@@ -43,12 +47,6 @@ export default {
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
-}
-@media (min-width: 768px) {
-  .intro {
-    height: 100%;
-    padding: 0;
-  }
 }
 .gnb {
   display: flex;
@@ -86,7 +84,23 @@ a {
 a:hover {
   color: #333;
 }
-
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  margin: 15px 0 0;
+  padding: 7px 16px;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  font-size: 40px;
+  color: white;
+  background: transparent;
+}
+.btn-circle:hover,
+.btn-circle:focus {
+  outline: none;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
 /* header */
 header {
   position: flex;
